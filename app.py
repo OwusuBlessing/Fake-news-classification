@@ -15,7 +15,7 @@ import altair as alt
 
 #load saved model
 model = catboost.CatBoostClassifier()
-model_path = r"C:/Users/ME/Desktop/Blessing_AI/Fake_News/Artifacts/cb_fakes_news_model.cbm"
+model_path = "Artifacts/cb_fakes_news_model.cbm"
 model.load_model(model_path)
 
 def predict_article(text):

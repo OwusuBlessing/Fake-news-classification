@@ -10,7 +10,7 @@ from src.preprocessor import Preprocessing
 import joblib
 
 # Load the saved TF-IDF preprocessor using joblib
-path = r"C:/Users/ME/Desktop/Blessing_AI/Fake_News/Artifacts/tfidf_preprocessor.pkl"
+path = "Artifacts/tfidf_preprocessor.pkl"
 class Prediction:
   def __init__(self,pred_data,model):
       self.pred_data = pred_data
